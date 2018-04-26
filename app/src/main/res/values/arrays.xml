@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="backgrounds">
+
+
+        <item name="image_two" type="drawable">@drawable/imagetwo</item>
+
+
+
+        <item name="image_four" type="drawable">@drawable/imagefour</item>
+
+
+        <item name="image_six" type="drawable">@drawable/imagesix</item>
+        <item name="image_seven" type="drawable">@drawable/imageseven</item>
+
+
+        <item name="image_eight" type="drawable">@drawable/imageeight</item>
+        <item name="image_nine" type="drawable">@drawable/imagenine</item>
+
+
+
+    </array>
+</resources>

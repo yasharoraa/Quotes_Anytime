@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/quotes_anytime"
+        layout="@layout/nav_header_main"
+        />
+
+    <TextView
+        android:id="@+id/thanks_user"
+        android:layout_below="@id/quotes_anytime"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/asking_support"
+        android:layout_below="@id/thanks_user"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+
+        android:layout_centerHorizontal="true"/>
+
+    <ProgressBar
+        android:id="@+id/support_progress_bar"
+        android:layout_below="@id/asking_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="?android:progressBarStyle"/>
+
+    <TextView
+        android:id="@+id/support_wait"
+        android:layout_below="@id/support_progress_bar"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+</RelativeLayout>

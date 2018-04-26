@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "93909872873",
+    "firebase_url": "https://quotes-anytime-cd8f7.firebaseio.com",
+    "project_id": "quotes-anytime-cd8f7",
+    "storage_bucket": "quotes-anytime-cd8f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93909872873:android:6cd15166c3d2a6e9",
+        "android_client_info": {
+          "package_name": "com.Innovvapp.anytimequotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93909872873-qs48efj1d3kikmh1h75evf08lolq27j5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnq5xG6vZM8hEazQjMFIgoLPmT9VCDPvY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

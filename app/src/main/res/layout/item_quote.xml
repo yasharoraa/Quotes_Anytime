@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_quote_layout"
+
+
+    >
+
+
+        <com.Innovvapp.anytimequotes.Utils.SquareImage
+            android:id="@+id/item_photo_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            tools:src= "@tools:sample/backgrounds/scenic"
+            />
+
+        <TextView
+            android:id="@+id/item_quote_quote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/item_photo_photo"
+            android:layout_alignTop="@+id/item_photo_photo"
+            android:layout_alignRight="@+id/item_photo_photo"
+            android:layout_alignBottom="@+id/item_photo_photo"
+            android:layout_margin="1dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:paddingTop="6dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="52dp"
+            tools:text="Hello Android Studio"
+            android:textColor="@color/white"
+            android:textAppearance="@style/Base.V7.Theme.AppCompat.Light"/>
+        <LinearLayout
+            android:id="@+id/linear_layout_de"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_color"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:minHeight="50dp"
+
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/item_quote_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Beautifully Mountain"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+
+
+
+

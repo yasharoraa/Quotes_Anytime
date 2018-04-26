@@ -1,0 +1,63 @@
+<resources>
+    <string name="saved_title">Saved</string>
+    <string name="app_name">Quotes Anytime</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">About</string>
+    <string name="quotes_title">Quotes</string>
+
+    <string name="save_title">Save</string>
+
+    <string name="share_title">Share</string>
+
+    <string name="sent_to">Share Image Using</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="wall_title">Set as</string>
+
+    <string name="wall_chooser_title">Set Image as</string>
+
+    <string name="delete_message">Do you want to delete this Quote?</string>
+
+    <string name="cancel_title">Cancel</string>
+
+    <string name="try_again_title">Swipe Down To Refresh</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-6198453078855259/1417350036</string>
+
+    <string name="interstisial_ad_unit_id">ca-app-pub-6198453078855259/6434228215</string>
+
+
+
+    <string name="about_label">About</string>
+
+    <string name="contact_us">Contact us at :</string>
+
+
+    <string name="email">anytimequotes@gmail.com</string>
+
+    <string name="tanks_support">Thanks for using Quotes Anytime</string>
+
+    <string name="support_title">Support us to make more improved and better apps for you</string>
+
+    <string name="support_wait_title">Please wait while video loads</string>
+
+    <string name="nav_support">Support us</string>
+
+    <string name="ad_video_failed">Failed to Load</string>
+
+    <string name="watch_full">Please watch full video</string>
+
+    <string name="share_again">Please Grant permissions and try again</string>
+
+    <string name="copy_quote">Copy</string>
+
+    <string name="quote_copied">Copied to clipboard</string>
+
+
+
+
+</resources>
